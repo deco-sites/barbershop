@@ -37,8 +37,7 @@ export default function HeroFlats({
       <div class="flex flex-col gap-8 items-center mx-auto">
         <div
           class={`flex w-full xl:container xl:mx-auto py-20 mx-5 md:mx-10 z-10 
-          bg-[url('https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8165/f5200eb0-47df-44e1-8042-e066583ed4ff')]
-          bg-cover bg-no-repeat lg:pt-36 lg:pb-20 gap-12 md:gap-20 items-center`}
+          lg:pt-36 lg:pb-20 gap-12 md:gap-20 items-center`}
         >
           <div
             class={`mx-6 lg:mx-auto lg:w-full space-y-4 gap-4 ${
