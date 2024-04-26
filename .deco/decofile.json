@@ -1,10 +1,16 @@
 {
   "BlogPostPage Loader": {
-    "__resolveType": "blog/loaders/BlogPostPage.ts"
+    "__resolveType": "blog/loaders/BlogPostPage.ts",
+    "slug": "teste"
   },
   "Faq - default": {
     "title": "FAQs",
-    "__resolveType": "site/sections/Faq.tsx"
+    "__resolveType": "site/sections/Faq.tsx",
+    "questions": [],
+    "description": "dfgf",
+    "cta": {
+      "outline": false
+    }
   },
   "Footer": {
     "__resolveType": "site/sections/Footer.tsx",
@@ -122,7 +128,7 @@
     "__resolveType": "site/sections/Hero.tsx",
     "placement": "left",
     "cta": [],
-    "title": "Click here to tweak this text however you want.",
+    "title": "<p>Click here to tweak this text however you want.</p>",
     "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8165/cbf2a566-7489-4e4e-a440-66229817e041"
   },
   "Preview /sections/ImageWithParagraph.tsx": {
@@ -484,11 +490,7 @@
           }
         },
         "page": {
-          "__resolveType": "blog/loaders/BlogPostPage.ts",
-          "slug": {
-            "__resolveType": "website/functions/requestToParam.ts",
-            "param": "slug"
-          }
+          "__resolveType": "BlogPostPage Loader"
         }
       },
       {
@@ -534,12 +536,6 @@
         }
       },
       {
-        "__resolveType": "site/sections/MainPost.tsx",
-        "post": {
-          "__resolveType": "collections/blog/posts/173aa7daa089"
-        }
-      },
-      {
         "__resolveType": "site/sections/Hero.tsx",
         "title": "<p><strong><span>ESTILO É UM REFLEXO DA SUA ATITUDE E SUA PERSONALIDADE</span><br></strong></p>",
         "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8165/f5200eb0-47df-44e1-8042-e066583ed4ff",
@@ -564,19 +560,7 @@
         "__resolveType": "Preview /sections/Hero.tsx"
       },
       {
-        "__resolveType": "site/sections/BlogPosts.tsx",
-        "pagination": {
-          "page": 3,
-          "perPage": 3
-        },
-        "posts": {
-          "__resolveType": "blog/loaders/BlogpostList.ts",
-          "count": 3,
-          "page": 1
-        },
-        "cta": {
-          "text": "tetse"
-        }
+        "__resolveType": "Preview site/sections/Logos.tsx"
       }
     ],
     "__resolveType": "website/pages/Page.tsx",
@@ -614,5 +598,26 @@
     "theme": {
       "__resolveType": "Neutral"
     }
+  },
+  "Preview site/sections/Logos.tsx": {
+    "__resolveType": "site/sections/Logos.tsx",
+    "logos": [
+      {
+        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8165/ae55c9ce-cc48-4326-956d-c065e4c195a6"
+      },
+      {
+        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8165/0eb3bd88-4876-4dec-bf69-30f50e242799"
+      },
+      {
+        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8165/8c6f9a2f-faf2-428d-9c4a-ffc2c5bf2fa9"
+      },
+      {
+        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8165/0521a906-bcd6-4bac-8ec5-baebd2648a91"
+      },
+      {
+        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8165/f6c51e78-ea5e-48cd-81f4-bcd4e6a011bc"
+      }
+    ],
+    "title": "Estilo e Qualidade"
   }
 }
