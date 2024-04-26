@@ -115,16 +115,28 @@
     "social": [],
     "subscribe": {}
   },
+  "Preview /sections/Header.tsx": {
+    "__resolveType": "site\\sections\\Header.tsx"
+  },
   "Preview /sections/Hero.tsx": {
     "__resolveType": "site/sections/Hero.tsx",
     "placement": "left",
     "cta": [],
-    "title": "Click here to tweak this text however you want."
+    "title": "Click here to tweak this text however you want.",
+    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8165/cbf2a566-7489-4e4e-a440-66229817e041"
   },
   "Preview /sections/ImageWithParagraph.tsx": {
     "__resolveType": "site/sections/ImageWithParagraph.tsx",
-    "placement": "left",
-    "cta": []
+    "placement": "right",
+    "cta": [],
+    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8165/9cb88e47-4e88-402b-9144-618754db8e90",
+    "disableSpacing": {
+      "top": false,
+      "bottom": true
+    },
+    "description": "Venha conhecer nossa barbearia no coração do Taboão da Serra! Cortes de cabelo e barba com qualidade e estilo. Ambiente acolhedor e profissionais experientes. Venha se cuidar e sair com um visual renovado. Esperamos por você!",
+    "title": "Estilo e Qualidade",
+    "tagline": " "
   },
   "Preview /sections/MainPost.tsx": {
     "__resolveType": "site/sections/MainPost.tsx",
@@ -137,6 +149,16 @@
   },
   "Preview /sections/Testimonials.tsx": {
     "__resolveType": "site/sections/Testimonials.tsx"
+  },
+  "Preview site/sections/Header.tsx": {
+    "__resolveType": "site/sections/Header.tsx",
+    "navigation": {
+      "links": [],
+      "buttons": []
+    },
+    "logo": {
+      "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8165/dc0b3b4a-da36-478c-a3e0-b3d29dd827f0"
+    }
   },
   "Preview site/sections/Hero.tsx": {
     "__resolveType": "site/sections/Hero.tsx"
@@ -306,12 +328,12 @@
           "slug": "customization"
         }
       ],
-      "content": "<h1>Lorem Ipsum Dolor Sit Tiptap</h1><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Nullam faucibus venenatis quam, ut laoreet nisi fermentum eget.</strong> Sed <em>pellentesque</em> egestas odio, <u>quis viverra nunc gravida non</u>. <s>Integer imperdiet ligula et lectus pharetra porta.</s></p><h2>H2: Maecenas Ultrices Ullamcorper Felis</h2><p>Donec <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://www.deco.cx/\">pulvinar</a> magna nec mi sodales, in volutpat tortor pretium. Phasellus <code>consequat</code> libero eu ligula aliquet, id ornare metus ultrices.</p><h3>H3: Aenean sed diam ipsum</h3><ul><li><p>Lorem ipsum dolor sit amet</p></li><li><p>Vestibulum ante ipsum primis</p></li><li><p>Proin accumsan porttitor felis</p></li></ul><h3>H3: Ordered List Example</h3><p>1. Praesent elementum ante nec nibh rhoncus 2. Mauris vel tincidunt turpis 3. Donec a volutpat diam</p><h2>Image Time!</h2><p><img src=\"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4763/682eb374-def2-4e85-a45d-b3a7ff8a31a9\"></p><h2>Blockquote with a Twist</h2><blockquote><p>Fusce finibus mauris vitae eros tincidunt, vitae vulputate neque egestas. Sed in ex ac urna volutpat ornare.</p><p></p></blockquote><p>Cras mattis consectetur purus sit amet fermentum. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>",
-      "slug": "lorem-ipsum",
-      "excerpt": "Discover Tiptap's rich formatting options in this whimsical \"lorem ipsum\" inspired blog post.",
-      "title": "Harness the Power of Tiptap: A Lorem Ipsum Inspired Demo",
+      "content": "<h1><strong><span style=\"color: rgb(236, 236, 236)\">Corte Degradê: Suavidade e Estilo em um Visual Moderno!</span></strong></h1><p></p><p>  O corte degradê é uma técnica popular de corte de cabelo masculino que cria uma transição suave entre diferentes comprimentos de cabelo, resultando em um visual graduado e sem linhas definidas. Geralmente, os cabelos são cortados mais curtos nas laterais e na parte de trás da cabeça, enquanto o topo permanece mais longo. Isso cria uma transição gradual entre os comprimentos, sem demarcações visíveis.</p><p>  O corte degradê é conhecido por sua versatilidade e pode ser adaptado a uma variedade de estilos e preferências pessoais. É uma escolha popular entre homens que desejam um visual moderno e elegante.</p><p><br></p><p></p><p></p>",
+      "slug": "teste slug",
+      "title": "titulo",
       "date": "2024-04-10",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4763/682eb374-def2-4e85-a45d-b3a7ff8a31a9"
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8165/177a8f12-30d1-4ca8-a1bb-af8a82ad9d45",
+      "excerpt": "teste experpt"
     }
   },
   "collections/blog/posts/1c8bb9f3d71d": {
@@ -487,12 +509,11 @@
   },
   "pages-home-5afd25174424": {
     "name": "Home",
-    "path": "/",
     "sections": [
       {
         "__resolveType": "site/sections/Header.tsx",
         "logo": {
-          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8165/7f2a1d00-687a-43c7-84dd-697bf46de78d"
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8165/ac9403e2-6e1f-4881-8082-d6d81b435f49"
         },
         "navigation": {
           "links": [
@@ -506,49 +527,64 @@
           "buttons": [
             {
               "text": "Agendar horário",
-              "outline": true,
+              "outline": false,
               "href": "#"
             }
           ]
         }
       },
       {
+        "__resolveType": "site/sections/MainPost.tsx",
+        "post": {
+          "__resolveType": "collections/blog/posts/173aa7daa089"
+        }
+      },
+      {
         "__resolveType": "site/sections/Hero.tsx",
-        "title": "<p>Click here to tweak this text however you want.</p>",
-        "description": "This text is entirely editable, tailor it freely.",
-        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8165/980d66e2-9d09-4e7e-b769-ddf126c13b50",
+        "title": "<p><strong><span>ESTILO É UM REFLEXO DA SUA ATITUDE E SUA PERSONALIDADE</span><br></strong></p>",
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8165/f5200eb0-47df-44e1-8042-e066583ed4ff",
+        "description": "Horário de funcionamento das 08:00 às 19:00",
         "cta": [
           {
             "href": "#",
-            "text": "te",
-            "outline": true
+            "text": "Agendar Horário",
+            "outline": false
           }
         ]
       },
       {
-        "__resolveType": "site/sections/MainPost.tsx",
-        "post": {
-          "__resolveType": "blog/loaders/BlogPostItem.ts",
-          "slug": "why-we-web"
-        }
+        "__resolveType": "site/sections/Hero.tsx",
+        "title": "<p><span style=\"color: rgb(236, 236, 236)\">Barbearia com Estilo!</span></p>",
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8165/2112a3df-71ae-47bc-b1e8-e8d79745366a",
+        "description": "Venha conhecer nossa barbearia no coração do Taboão da Serra! Cortes de cabelo e barba com qualidade e estilo. Ambiente acolhedor e profissionais experientes. Venha se cuidar e sair com um visual renovado. Esperamos por você!",
+        "cta": [],
+        "placement": "right"
+      },
+      {
+        "__resolveType": "Preview /sections/Hero.tsx"
       },
       {
         "__resolveType": "site/sections/BlogPosts.tsx",
         "pagination": {
-          "perPage": 2,
-          "page": 2
+          "page": 3,
+          "perPage": 3
         },
-        "posts": null
-      },
-      {
-        "__resolveType": "site/sections/Hero.tsx"
+        "posts": {
+          "__resolveType": "blog/loaders/BlogpostList.ts",
+          "count": 3,
+          "page": 1
+        },
+        "cta": {
+          "text": "tetse"
+        }
       }
     ],
     "__resolveType": "website/pages/Page.tsx",
     "seo": {
       "__resolveType": "website/sections/Seo/SeoV2.tsx",
       "type": "website"
-    }
+    },
+    "path": "/"
   },
   "site": {
     "__resolveType": "site/apps/site.ts",
