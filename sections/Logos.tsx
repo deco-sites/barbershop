@@ -42,6 +42,8 @@ export default function Logos({
         <div class="relative w-full overflow-hidden h-14">
           <div class="animate-sliding absolute top-0 left-0 flex flex-nowrap h-14 w-full justify-center">
             {slideContent}
+            {slideContent}
+            {slideContent}
           </div>
         </div>
       </div>
