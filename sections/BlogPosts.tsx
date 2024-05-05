@@ -175,7 +175,7 @@ export default function BlogPosts({
       title: "Title of blogpost #12",
       authors: [{ name: "Name of the author", email: "author@deco.cx" }],
       excerpt:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",
+        "consectetur adipiscing elit. Suspendisse varius enim in eros.",
       image: DEFAULT_IMAGE,
       date: "01 Apr 2024",
       categories: [{ name: "Tag#1", slug: "tag-1" }],
