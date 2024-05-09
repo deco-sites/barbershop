@@ -8,7 +8,6 @@ export interface CTA {
   outline?: boolean;
 }
 
-
 export interface Question {
   title: string;
   /** @format rich-text */
