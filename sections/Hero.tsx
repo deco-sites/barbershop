@@ -7,7 +7,6 @@ export interface CTA {
   text: string;
   outline?: boolean;
 }
-
 export interface Props {
   /** 
    * @format rich-text
