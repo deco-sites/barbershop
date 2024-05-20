@@ -4,7 +4,6 @@ import { usePartialSection } from "deco/hooks/usePartialSection.ts";
 import { ComponentChildren, Fragment } from "preact";
 import { BlogPost } from "apps/blog/types.ts";
 import { useId } from "../sdk/useId.ts";
-
 export interface CTA {
   text?: string;
 }
